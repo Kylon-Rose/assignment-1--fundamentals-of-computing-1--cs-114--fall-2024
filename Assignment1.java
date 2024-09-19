@@ -28,5 +28,12 @@ public class Assignment1 {
     System.out.println(trimmed);
 
   scanner.close(); 
+
+    Random generator = new Random();
+    int num1;
+
+    num1 = generator.nextInt(16384);
+    System.out.println("From 32 to 16384: " + num1);
+
   }
 }
