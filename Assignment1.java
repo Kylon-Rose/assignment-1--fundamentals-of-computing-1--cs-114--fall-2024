@@ -35,5 +35,7 @@ public class Assignment1 {
     num1 = generator.nextInt(16384);
     System.out.println("From 32 to 16384: " + num1);
 
+    String combined = celsius + trimmed + num1;
+    System.out.println("Your new string is " + combined);
   }
 }
